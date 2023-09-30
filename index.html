@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>neuro ring</title>
+    <link rel="stylesheet" href="ring.css">
+
+</head>
+<body>
+    <div class="loader">
+        <div class="text">
+            <p>
+                Neumrophism Gradient Loading Animation Effects -
+            </p>
+        </div>
+
+        <span><i></i></span>
+    </div>
+       
+
+
+    <script>
+        let text =document.querySelector('.text p');
+        text.innerHTML = text.innerText.split("").map((char,i) =>
+        '<b style="transform:rotate(${i*5}deg)">${char}</b>').:join("");
+    </script>
+</body>
+</html>
